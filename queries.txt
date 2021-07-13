@@ -1,0 +1,4 @@
+--select PLAYER_NAME,  TEAM_ABBREVIATION, AGE, PTS from players2021 where AGE < 25 and PTS > 10 order by PTS DESC;
+--select * from players2021 where PLAYER_NAME == "Elijah Bryant"
+
+select PLAYER_NAME, TEAM_ABBREVIATION, FT_PCT, FTA from players2021 where TEAM_ABBREVIATION == "LAL" order by FT_PCT desc
